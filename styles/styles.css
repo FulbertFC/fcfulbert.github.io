@@ -874,3 +874,10 @@ footer {
     font-weight: bold;
     text-align: center;
 }
+
+img.favicon {
+  width: 240px;
+  height: 100px;
+  border-radius: 50%; /* arrondi parfait */
+  overflow: hidden;
+}

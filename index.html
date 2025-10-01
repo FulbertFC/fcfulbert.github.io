@@ -1,93 +1,202 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-site-verification" content="QUPrWkFPPhnG1lpLet9xHNlffXc3J6XiglIcV4vPH7M" />
-  <title>Bienvenu sur le site officiel du FCFulbert by L&amp;E</title>
-
-  <!-- SEO -->
-  <meta name="description" content="Site officiel du club de football fictif FCFulbert by L&E. Suivez nos actualités, matchs et vidéos sur YouTube, TikTok et X.">
-  <meta name="keywords" content="FCFulbert, club de foot, football fictif, L&E, YouTube, TikTok, X, réseaux sociaux, actualités">
-  <meta name="author" content="FCFulbert by L&E">
-  <link rel="canonical" href="https://votre-nom.github.io/FCFulbert/">
-
-  <!-- Open Graph (Facebook/LinkedIn) -->
-  <meta property="og:title" content="FCFulbert by L&E - Club de Football Fictif">
-  <meta property="og:description" content="Découvrez le club fictif FCFulbert et rejoignez-nous sur nos réseaux sociaux.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://votre-nom.github.io/FCFulbert/">
-  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=FCFulbert">
-
-  <!-- Twitter Cards -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="FCFulbert by L&E">
-  <meta name="twitter:description" content="Club de foot fictif FCFulbert by L&E. Suivez-nous sur YouTube, TikTok et X.">
-  <meta name="twitter:image" content="https://via.placeholder.com/1200x630.png?text=FCFulbert">
-
-  <!-- Styles simples -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FC Fulbert</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background: #f4f4f4;
-      color: #333;
-      text-align: center;
-    }
-    header {
-      background: #f4b35a;
-      color: white;
-      padding: 2rem 1rem;
-    }
-    h1 {
+    /* Reset basique */
+    * {
       margin: 0;
-      font-size: 2rem;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
     }
-    main {
-      padding: 2rem;
+
+    body {
+      background-color: #0B2C5A;
+      color: #fff;
     }
-    .social-links a {
-      display: inline-block;
-      margin: 0.5rem;
-      padding: 0.75rem 1.5rem;
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: #0B2C5A;
+    }
+
+    header .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    header .logo .circle {
+      width: 40px;
+      height: 40px;
+      background-color: #FFD200;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: #0B2C5A;
+      margin-right: 10px;
+    }
+
+    header nav a {
+      color: #fff;
       text-decoration: none;
-      background: #007BFF;
-      color: white;
-      border-radius: 25px;
-      transition: background 0.3s;
+      margin-left: 20px;
+      font-weight: bold;
     }
-    .social-links a:hover {
-      background: #0056b3;
+
+    header nav a:hover {
+      color: #FFD200;
     }
-    footer {
-      margin-top: 2rem;
-      padding: 1rem;
-      background: #222;
-      color: #ddd;
-      font-size: 0.9rem;
+
+    /* Main container */
+    .container {
+      display: flex;
+      justify-content: space-around;
+      padding: 50px;
+      flex-wrap: wrap;
+    }
+
+    /* Welcome section */
+    .welcome {
+      max-width: 500px;
+    }
+
+    .welcome h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .welcome h1 span {
+      color: #FFD200;
+    }
+
+    .welcome p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    /* Card */
+    .card {
+      background-color: #1A3B70;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .card h3 {
+      color: #FFD200;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+
+    .card .score,
+    .card .countdown {
+      font-size: 2em;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .card .teams {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    .card .match-info {
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+
+    .card button {
+      background-color: #FFD200;
+      color: #0B2C5A;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background-color: #e0b800;
+    }
+
+    /* Responsive */
+    @media(max-width: 900px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
     }
   </style>
 </head>
+
 <body>
 
   <header>
-    <h1>Bienvenu sur le site officiel du FCFulbert by L&amp;E</h1>
+    <div class="logo">
+      <div class="circle">FCF</div>
+      <div>
+        <div>FC FULBERT</div>
+        <small>EST. 1985</small>
+      </div>
+    </div>
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">NEWS</a>
+      <a href="#">TEAM</a>
+      <a href="#">FIXTURES & RESULTS</a>
+      <a href="#">THE CLUB</a>
+      <a href="#">TICKETS</a>
+      <a href="#">SHOP</a>
+      <a href="#">CONTACT</a>
+    </nav>
   </header>
 
-  <main>
-    <p>Rejoignez le FCFulbert, un club de football fictif passionné et dynamique. Suivez nos actualités et nos moments forts sur nos réseaux sociaux&nbsp;:</p>
+  <div class="container">
+    <div class="welcome">
+      <h1>Welcome to <span>FC Fulbert</span></h1>
+      <p>Passion. Pride. Excellence.</p>
 
-    <div class="social-links" aria-label="Liens vers nos réseaux sociaux">
-      <a href="https://www.youtube.com/@FCFulbert" target="_blank" rel="noopener noreferrer">YouTube</a>
-      <a href="https://www.tiktok.com/@fcfulbert_officiel" target="_blank" rel="noopener noreferrer">TikTok</a>
-      <a href="https://x.com/FcFulbert" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+      <div class="card">
+        <h3>LATEST RESULT</h3>
+        <div class="teams">
+          <span>FC FULBERT</span>
+          <span>CITY UNITED</span>
+        </div>
+        <div class="score">
+          2 - 1
+        </div>
+        <div>League</div>
+      </div>
     </div>
-  </main>
 
-  <footer>
-    &copy; 2025 FCFulbert by L&amp;E. Tous droits réservés.
-  </footer>
+    <div class="card">
+      <h3>NEXT MATCH</h3>
+      <div class="countdown" id="countdown">3d 23h 37m 16s</div>
+      <div class="teams">
+        <span>FC FULBERT</span>
+        <span>SPORTING FC</span>
+      </div>
+      <div class="match-info">
+        Sunday, October 5, 2025 at 11:26 AM <br>
+        Fulbert Stadium <br>
+        League
+      </div>
+      <button>GET TICKETS</button>
+    </div>
+  </div>
 
 </body>
-</html>
 
+</html>

@@ -9,22 +9,37 @@
 
 <url>
   <loc>https://www.fcfulbert.com/</loc>
-  <lastmod>2025-10-01T16:47:09+00:00</lastmod>
+  <lastmod>2025-10-02T11:16:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.fcfulbert.com/index.html</loc>
-  <lastmod>2025-10-01T16:47:09+00:00</lastmod>
+  <lastmod>2025-10-02T11:16:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fcfulbert.com/pages/club.html</loc>
-  <lastmod>2025-10-01T16:47:09+00:00</lastmod>
+  <loc>https://www.fcfulbert.com/club.html</loc>
+  <lastmod>2025-10-02T11:16:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.fcfulbert.com/pages/contact.html</loc>
-  <lastmod>2025-10-01T16:47:09+00:00</lastmod>
+  <loc>https://www.fcfulbert.com/listedesjoueurs.html</loc>
+  <lastmod>2025-10-02T11:16:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.fcfulbert.com/actualites.html</loc>
+  <lastmod>2025-10-02T11:16:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.fcfulbert.com/contact.html</loc>
+  <lastmod>2025-10-02T11:16:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.fcfulbert.com/mentions-legales.html</loc>
+  <lastmod>2025-10-02T11:16:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
